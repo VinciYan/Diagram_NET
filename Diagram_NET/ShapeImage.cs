@@ -25,7 +25,7 @@ namespace Diagram_NET
             ConnectionPoints = new PointCollection(points);
             #endregion
         }
-        [XtraSerializableProperty, Category("自定义"), DisplayName("结点ID")]
+        [XtraSerializableProperty, Category("自定义"), DisplayName("节点ID")]
 
         public int Id { get; set; }
 

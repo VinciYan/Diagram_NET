@@ -15,16 +15,16 @@ namespace Diagram_NET
         {
 
         }
-        [XtraSerializableProperty, Category("节点信息"), DisplayName("节点编号")]
+        [XtraSerializableProperty, Category("边信息"), DisplayName("边编号")]
         public int Id { get; set; }
-        [XtraSerializableProperty, Category("节点信息"), DisplayName("权值")]
+        [XtraSerializableProperty, Category("边信息"), DisplayName("权值")]
         public int WeightVal { get; set; }
 
-        [XtraSerializableProperty, Category("节点信息"), DisplayName("头部节点编号")]
+        [XtraSerializableProperty, Category("边信息"), DisplayName("头部节点编号")]
         public int BeginNodeNo { get; set; }
 
 
-        [XtraSerializableProperty, Category("节点信息"), DisplayName("尾部节点编号")]
+        [XtraSerializableProperty, Category("边信息"), DisplayName("尾部节点编号")]
         public int EndNodeNo { get; set; }
         static CustomConnector()
         {
